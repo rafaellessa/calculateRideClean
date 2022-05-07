@@ -1,8 +1,9 @@
-import Ride from '../src/Ride'
-import NormalFareCalculator from '../src/NormalFareCalculator'
-import SundayFareCalculator from '../src/SundayFareCalculator'
-import OvernightSundayFareCalculator from '../src/OvernightSundayFareCalculator'
-import OvernightFareCalculator from '../src/OvernightFareCalculator'
+import NormalFareCalculator from '../../src/exercicio1/NormalFareCalculator'
+import OvernightFareCalculator from '../../src/exercicio1/OvernightFareCalculator'
+import OvernightSundayFareCalculator from '../../src/exercicio1/OvernightSundayFareCalculator'
+import Ride from '../../src/exercicio1/Ride'
+import SundayFareCalculator from '../../src/exercicio1/SundayFareCalculator'
+
 describe('Ride', () => {
   let ride: Ride
   beforeEach(() => {

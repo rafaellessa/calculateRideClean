@@ -1,4 +1,4 @@
-import { calculateRide } from '../src/procedural/calculate-ride'
+import { calculateRide } from '../../src/exercicio1/procedural/calculate-ride'
 
 describe('calc', () => {
   it('deve calcular o valor da corrida em horário normal', () => {
